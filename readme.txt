@@ -72,7 +72,7 @@ See this [video](https://www.youtube.com/watch?v=yk5zPfK8zfE) for a demonstratio
 == Changelog ==
 
 = 0.8 =
-* Fixed issue with empty met_key
+* Fixed issue with empty meta_key
 
 = 0.7 =
 * Minor verbiage tweak
