@@ -1,10 +1,10 @@
 === UM Relational Fields ===
 Contributors: plusplugins
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=59LKNNEUMFPKU
-Tags: ultimatemember, ultimate member, relationships, relational, fields, relational fields, link members, profile linking, connect members
+Tags: ultimatemember, ultimate member, relationships, relation, relational fields, link members, profile linking, connect members
 Requires at least: 3.0.1
 Tested up to: 4.8.1
-Stable tag: 0.7
+Stable tag: 0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -70,6 +70,9 @@ See this [video](https://www.youtube.com/watch?v=yk5zPfK8zfE) for a demonstratio
 3. The result.
 
 == Changelog ==
+
+= 0.8 =
+* Fixed issue with empty met_key
 
 = 0.7 =
 * Minor verbiage tweak

@@ -4,7 +4,7 @@
  * Plugin URI:  https://plusplugins.com
  * Description: Add relationships between users, post types and taxonomies.
  * Author:      PlusPlugins
- * Version:     0.7
+ * Version:     0.8
  * Author URI:  https://plusplugins.com
  */
 
@@ -126,13 +126,14 @@ class PP_Fields {
 			$slug = isset( $args[2] ) ? $args[2] : '';
 			$link = isset( $args[3] ) ? $args[3] : '';
 
-			//validation
-			add_action( 'um_before_form', function ( $args ) use ( $type, $key, $slug, $link ) {
-				$this->profile_form( $type, $key, $slug, $link );
-			}, 10, 1 );
+			if ( ! empty( $key ) ) {
+				add_action( 'um_before_form', function ( $args ) use ( $type, $key, $slug, $link ) {
+					$this->profile_form( $type, $key, $slug, $link );
+				}, 10, 1 );
 
-			$this->search_form( $type, $key, $slug, $link );
-			$this->filtered_value( $type, $key, $slug, $link );
+				$this->search_form( $type, $key, $slug, $link );
+				$this->filtered_value( $type, $key, $slug, $link );
+			}
 		}
 	}
 
@@ -343,9 +344,10 @@ class PP_Fields {
 	 * @param $link
 	 */
 	function filtered_value( $type, $key, $slug, $link ) {
-		$profile_id = um_profile_id();
 
-		add_filter( "um_profile_field_filter_hook__{$key}", function ( $value, $data ) use ( $type, $key, $slug, $link, $profile_id ) {
+		add_filter( "um_profile_field_filter_hook__{$key}", function ( $value, $data ) use ( $type, $key, $slug, $link ) {
+
+			$profile_id = um_user( 'ID' );
 
 			$ids = get_user_meta( $profile_id, $key, true );
 
