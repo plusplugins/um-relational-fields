@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: ultimatemember, ultimate member, relationships, relational, fields, relational fields, link members, profile linking, connect members
 Requires at least: 3.0.1
 Tested up to: 4.8.1
-Stable tag: 0.6
+Stable tag: 0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,9 +14,9 @@ Add relationships between users, post types and taxonomies in your Ultimate Memb
 
 Ultimate Member helps you build a community. A community is all about being linked. This plugin allows you to link users to other users, as well as post types and taxonomies. Now you can create a true, linked community!
 
-See this [video](https://www.youtube.com/watch?v=yk5zPfK8zfE&t=46s) for a demonstration/tutorial of the plugin.
+See this [video](https://www.youtube.com/watch?v=yk5zPfK8zfE) for a demonstration/tutorial of the plugin.
 
-[youtube https://www.youtube.com/watch?v=yk5zPfK8zfE&t=46s]
+[youtube https://www.youtube.com/watch?v=yk5zPfK8zfE]
 
 **More UM Extensions**
 
@@ -61,9 +61,7 @@ Anything. UM won't allow you to create a new `dropdown` or `multiselect` field i
 If you're new to this, use something like the [Custom Post Type UI plugin](https://wordpress.org/plugins/custom-post-type-ui/) to create new post types and taxonomies.
 
 = Video demonstration/tutorial of the plugin =
-See this [video](https://www.youtube.com/watch?v=yk5zPfK8zfE&t=46s) for a demonstration/tutorial of the plugin.
-
-[youtube https://www.youtube.com/watch?v=yk5zPfK8zfE&t=46s]
+See this [video](https://www.youtube.com/watch?v=yk5zPfK8zfE) for a demonstration/tutorial of the plugin.
 
 == Screenshots ==
 
@@ -72,6 +70,9 @@ See this [video](https://www.youtube.com/watch?v=yk5zPfK8zfE&t=46s) for a demons
 3. The result.
 
 == Changelog ==
+
+= 0.7 =
+* Minor verbiage tweak
 
 = 0.6 =
 * Added video tutorial for UM Relational Fields plugin
