@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: ultimatemember, ultimate member, relationships, relation, relational fields, link members, profile linking, connect members
 Requires at least: 3.0.1
 Tested up to: 4.8.1
-Stable tag: 0.8
+Stable tag: 0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,6 +17,12 @@ Ultimate Member helps you build a community. A community is all about being link
 See this [video](https://www.youtube.com/watch?v=yk5zPfK8zfE) for a demonstration/tutorial of the plugin.
 
 [youtube https://www.youtube.com/watch?v=yk5zPfK8zfE]
+
+= Important =
+
+This plugin requires the [Ultimate Member](https://wordpress.org/plugins/ultimate-member/) plugin to be installed and activated.
+
+If you like this plugin, please [rate and/or review](https://wordpress.org/support/plugin/um-relational-fields/reviews/) it. If you have ideas on how to make the plugin even better or if you have found any bugs, please report these in the [Support Forum](https://wordpress.org/support/plugin/um-relational-fields/) or in the [GitHub Repository](https://github.com/plusplugins/um-relational-fields/issues).
 
 **More UM Extensions**
 
@@ -70,6 +76,9 @@ See this [video](https://www.youtube.com/watch?v=yk5zPfK8zfE) for a demonstratio
 3. The result.
 
 == Changelog ==
+
+= 0.9 =
+* Added Github Repo link
 
 = 0.8 =
 * Fixed issue with empty meta_key

@@ -4,7 +4,7 @@
  * Plugin URI:  https://plusplugins.com
  * Description: Add relationships between users, post types and taxonomies.
  * Author:      PlusPlugins
- * Version:     0.8
+ * Version:     0.9
  * Author URI:  https://plusplugins.com
  */
 
