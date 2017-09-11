@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: ultimatemember, ultimate member, relationships, relation, relational fields, link members, profile linking, connect members
 Requires at least: 3.0.1
 Tested up to: 4.8.1
-Stable tag: 0.9
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -77,17 +77,20 @@ See this [video](https://www.youtube.com/watch?v=yk5zPfK8zfE) for a demonstratio
 
 == Changelog ==
 
+= 1.0 =
+* Fix `Notice: Use of undefined constant PP_CONTACT_REQUIRES`
+
 = 0.9 =
-* Added Github Repo link
+* Add Github Repo link
 
 = 0.8 =
-* Fixed issue with empty meta_key
+* Fix issue with empty meta_key
 
 = 0.7 =
 * Minor verbiage tweak
 
 = 0.6 =
-* Added video tutorial for UM Relational Fields plugin
+* Add video tutorial for UM Relational Fields plugin
 
 = 0.5 =
 * Show relations on Profile Card in Members Directory

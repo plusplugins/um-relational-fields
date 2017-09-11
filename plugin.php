@@ -4,13 +4,15 @@
  * Plugin URI:  https://plusplugins.com
  * Description: Add relationships between users, post types and taxonomies.
  * Author:      PlusPlugins
- * Version:     0.9
+ * Version:     1.0
  * Author URI:  https://plusplugins.com
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
+
+define( 'PP_FIELDS_REQUIRES', '1.3.28' );
 
 class PP_Fields {
 	public $notice_messge = '';
@@ -29,7 +31,7 @@ class PP_Fields {
 		if ( ! class_exists( 'UM_API' ) ) {
 			$this->notice_messge   = __( 'The <strong>UM Relational Fields</strong> extension requires the Ultimate Member plugin to be activated to work properly. You can download it <a href="https://wordpress.org/plugins/ultimate-member">here</a>', 'pp-contact' );
 			$this->plugin_inactive = true;
-		} else if ( ! version_compare( ultimatemember_version, PP_CONTACT_REQUIRES, '>=' ) ) {
+		} else if ( ! version_compare( ultimatemember_version, PP_FIELDS_REQUIRES, '>=' ) ) {
 			$this->notice_messge   = __( 'The <strong>UM Relational Fields</strong> extension requires a <a href="https://wordpress.org/plugins/ultimate-member">newer version</a> of Ultimate Member to work properly.', 'pp-contact' );
 			$this->plugin_inactive = true;
 		}
